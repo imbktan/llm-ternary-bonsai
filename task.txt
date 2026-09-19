@@ -1,0 +1,6 @@
+Make a small voxel Pagoda Garden scene in Three.js. One file index.html, Three.js +
+OrbitControls from CDN via import map. Everything from cubes on a grass island:
+5-tier pagoda (dark roofs, red columns), red torii, 2-3 cherry trees, pond with
+wooden bridge, a couple of stone lanterns. Warm sunset light with shadows, slowly
+auto-rotating orbit camera. If easy: falling petals. Only standard Three.js
+materials, no custom shaders. Keep it simple and make it work.

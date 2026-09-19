@@ -1,0 +1,42 @@
+# --- Large binary payloads (not source; fetch/build these separately) ---
+# llama.cpp build output + shared libs (~1.1G)
+bin/
+# GGUF weights (~6.2G)
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# --- Runtime / agent output ---
+*.log
+logs/
+.bonsai-*
+# mount/ is the agent's writable workspace and is rewritten on every run.
+# Uncomment to stop tracking scratch HTML; keep commented to version the current page.
+# mount/
+
+# --- Secrets & local config ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# --- Editor / OS ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
